@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B661218118B88B0E00128F7E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B661218018B88B0E00128F7E /* MobileCoreServices.framework */; };
+		B661219118B88C9500128F7E /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B661218418B88C9500128F7E /* SDImageCache.m */; };
+		B661219218B88C9500128F7E /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = B661218818B88C9500128F7E /* SDWebImageDecoder.m */; };
+		B661219318B88C9500128F7E /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = B661218A18B88C9500128F7E /* SDWebImageDownloader.m */; };
+		B661219418B88C9500128F7E /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B661218D18B88C9500128F7E /* SDWebImageManager.m */; };
+		B661219518B88C9500128F7E /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B661219018B88C9500128F7E /* UIImageView+WebCache.m */; };
+		B6A92A0318BC346700570C6F /* NXFirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A92A0218BC346700570C6F /* NXFirstCell.m */; };
 		B6B1789518B4D53400737740 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B1789418B4D53400737740 /* Foundation.framework */; };
-		B6B1789718B4D53400737740 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B1789618B4D53400737740 /* CoreGraphics.framework */; };
 		B6B1789918B4D53400737740 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B1789818B4D53400737740 /* UIKit.framework */; };
 		B6B1789F18B4D53400737740 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6B1789D18B4D53400737740 /* InfoPlist.strings */; };
 		B6B178A118B4D53400737740 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B178A018B4D53400737740 /* main.m */; };
@@ -21,6 +27,9 @@
 		B6B178B618B4D53400737740 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B1789818B4D53400737740 /* UIKit.framework */; };
 		B6B178BE18B4D53400737740 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6B178BC18B4D53400737740 /* InfoPlist.strings */; };
 		B6B178C018B4D53400737740 /* HancomForIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B178BF18B4D53400737740 /* HancomForIOSTests.m */; };
+		B6B178CB18B4E0AA00737740 /* NXMyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B178CA18B4E0AA00737740 /* NXMyCell.m */; };
+		B6B178CE18B4F0E800737740 /* NXdataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B178CD18B4F0E800737740 /* NXdataModel.m */; };
+		B6B178D418B5F50A00737740 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B178D318B5F50A00737740 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B661218018B88B0E00128F7E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B661218318B88C9500128F7E /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		B661218418B88C9500128F7E /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		B661218518B88C9500128F7E /* SDImageCacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCacheDelegate.h; sourceTree = "<group>"; };
+		B661218618B88C9500128F7E /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		B661218718B88C9500128F7E /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		B661218818B88C9500128F7E /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		B661218918B88C9500128F7E /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		B661218A18B88C9500128F7E /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		B661218B18B88C9500128F7E /* SDWebImageDownloaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderDelegate.h; sourceTree = "<group>"; };
+		B661218C18B88C9500128F7E /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		B661218D18B88C9500128F7E /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		B661218E18B88C9500128F7E /* SDWebImageManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManagerDelegate.h; sourceTree = "<group>"; };
+		B661218F18B88C9500128F7E /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		B661219018B88C9500128F7E /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		B6A92A0118BC346700570C6F /* NXFirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXFirstCell.h; sourceTree = "<group>"; };
+		B6A92A0218BC346700570C6F /* NXFirstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXFirstCell.m; sourceTree = "<group>"; };
 		B6B1789118B4D53400737740 /* HancomForIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HancomForIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B1789418B4D53400737740 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B6B1789618B4D53400737740 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +79,12 @@
 		B6B178BB18B4D53400737740 /* HancomForIOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HancomForIOSTests-Info.plist"; sourceTree = "<group>"; };
 		B6B178BD18B4D53400737740 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B6B178BF18B4D53400737740 /* HancomForIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HancomForIOSTests.m; sourceTree = "<group>"; };
+		B6B178C918B4E0AA00737740 /* NXMyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXMyCell.h; sourceTree = "<group>"; };
+		B6B178CA18B4E0AA00737740 /* NXMyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXMyCell.m; sourceTree = "<group>"; };
+		B6B178CC18B4F0E800737740 /* NXdataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXdataModel.h; sourceTree = "<group>"; };
+		B6B178CD18B4F0E800737740 /* NXdataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXdataModel.m; sourceTree = "<group>"; };
+		B6B178D218B5F50A00737740 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
+		B6B178D318B5F50A00737740 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6B1789718B4D53400737740 /* CoreGraphics.framework in Frameworks */,
+				B661218118B88B0E00128F7E /* MobileCoreServices.framework in Frameworks */,
 				B6B1789918B4D53400737740 /* UIKit.framework in Frameworks */,
 				B6B1789518B4D53400737740 /* Foundation.framework in Frameworks */,
 			);
@@ -79,6 +111,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B661218218B88C7F00128F7E /* SDWebCache */ = {
+			isa = PBXGroup;
+			children = (
+				B661218318B88C9500128F7E /* SDImageCache.h */,
+				B661218418B88C9500128F7E /* SDImageCache.m */,
+				B661218518B88C9500128F7E /* SDImageCacheDelegate.h */,
+				B661218618B88C9500128F7E /* SDWebImageCompat.h */,
+				B661218718B88C9500128F7E /* SDWebImageDecoder.h */,
+				B661218818B88C9500128F7E /* SDWebImageDecoder.m */,
+				B661218918B88C9500128F7E /* SDWebImageDownloader.h */,
+				B661218A18B88C9500128F7E /* SDWebImageDownloader.m */,
+				B661218B18B88C9500128F7E /* SDWebImageDownloaderDelegate.h */,
+				B661218C18B88C9500128F7E /* SDWebImageManager.h */,
+				B661218D18B88C9500128F7E /* SDWebImageManager.m */,
+				B661218E18B88C9500128F7E /* SDWebImageManagerDelegate.h */,
+				B661218F18B88C9500128F7E /* UIImageView+WebCache.h */,
+				B661219018B88C9500128F7E /* UIImageView+WebCache.m */,
+			);
+			name = SDWebCache;
+			sourceTree = "<group>";
+		};
 		B6B1788818B4D53400737740 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +154,7 @@
 		B6B1789318B4D53400737740 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B661218018B88B0E00128F7E /* MobileCoreServices.framework */,
 				B6B1789418B4D53400737740 /* Foundation.framework */,
 				B6B1789618B4D53400737740 /* CoreGraphics.framework */,
 				B6B1789818B4D53400737740 /* UIKit.framework */,
@@ -112,9 +166,18 @@
 		B6B1789A18B4D53400737740 /* HancomForIOS */ = {
 			isa = PBXGroup;
 			children = (
+				B661218218B88C7F00128F7E /* SDWebCache */,
+				B6B178D218B5F50A00737740 /* DetailViewController.h */,
+				B6B178D318B5F50A00737740 /* DetailViewController.m */,
 				B6B178A318B4D53400737740 /* AppDelegate.h */,
 				B6B178A418B4D53400737740 /* AppDelegate.m */,
 				B6B178A618B4D53400737740 /* Main.storyboard */,
+				B6B178CC18B4F0E800737740 /* NXdataModel.h */,
+				B6B178CD18B4F0E800737740 /* NXdataModel.m */,
+				B6B178C918B4E0AA00737740 /* NXMyCell.h */,
+				B6B178CA18B4E0AA00737740 /* NXMyCell.m */,
+				B6A92A0118BC346700570C6F /* NXFirstCell.h */,
+				B6A92A0218BC346700570C6F /* NXFirstCell.m */,
 				B6B178A918B4D53400737740 /* ViewController.h */,
 				B6B178AA18B4D53400737740 /* ViewController.m */,
 				B6B178AC18B4D53400737740 /* Images.xcassets */,
@@ -249,9 +312,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B661219518B88C9500128F7E /* UIImageView+WebCache.m in Sources */,
 				B6B178AB18B4D53400737740 /* ViewController.m in Sources */,
+				B661219318B88C9500128F7E /* SDWebImageDownloader.m in Sources */,
+				B6B178CE18B4F0E800737740 /* NXdataModel.m in Sources */,
+				B6B178CB18B4E0AA00737740 /* NXMyCell.m in Sources */,
 				B6B178A518B4D53400737740 /* AppDelegate.m in Sources */,
+				B661219218B88C9500128F7E /* SDWebImageDecoder.m in Sources */,
 				B6B178A118B4D53400737740 /* main.m in Sources */,
+				B661219418B88C9500128F7E /* SDWebImageManager.m in Sources */,
+				B6B178D418B5F50A00737740 /* DetailViewController.m in Sources */,
+				B6A92A0318BC346700570C6F /* NXFirstCell.m in Sources */,
+				B661219118B88C9500128F7E /* SDImageCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +532,7 @@
 				B6B178C518B4D53400737740 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6B178C618B4D53400737740 /* Build configuration list for PBXNativeTarget "HancomForIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +541,7 @@
 				B6B178C818B4D53400737740 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
